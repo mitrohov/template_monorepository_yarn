@@ -1,6 +1,6 @@
 <script setup lang="js">
 import HelloWorld from './components/HelloWorld.vue'
-import {UiInput} from "ui"
+import {UiInput} from "app-ui"
 </script>
 
 <template>

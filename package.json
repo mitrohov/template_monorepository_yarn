@@ -1,9 +1,10 @@
 {
   "name": "main",
   "scripts": {
-    "back-dev": "node backend/index.js",
+    "update-all": "yarn && cd frontend/site && yarn && cd ../..",
+    "front-site-update": "yarn && cd frontend/site && yarn",
     "front-site-dev": "cd frontend/site && yarn run dev",
-    "front-site-update": "cd frontend/site && yarn"
+    "back-dev": "node backend/index.js"
   },
   "version": "1.0.0",
   "main": "index.js",
@@ -12,6 +13,6 @@
   "private": true,
   "workspaces": [
     "utils/*",
-    "ui"
+    "app-ui"
   ]
 }

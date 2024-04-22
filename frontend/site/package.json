@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.4.21",
-    "ui": "*"
+    "app-ui": "*"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
