@@ -1,0 +1,17 @@
+{
+  "name": "main",
+  "scripts": {
+    "back-dev": "node backend/index.js",
+    "front-site-dev": "cd frontend/site && yarn run dev",
+    "front-site-update": "cd frontend/site && yarn"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "utils/*",
+    "ui"
+  ]
+}
